@@ -27,16 +27,27 @@ header {
     font-size: 1.8em;
 }
 
-.navigation a{
+
+.nav-btn{
     color: #FC4503;
     text-decoration: none;
     font-size: 1.1em;
     font-weight: 500;
-    padding-left: 30px;
+    padding: 15px;
 }
 
-.navigation a:hover{
-    color: #601cfc;
+.nav-btn:hover {
+    color: #F7EEEC;
+    background-color: #FC4503;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 30px;
+    /*letter-spacing: 1px;*/
+    border-radius: 15px;
+    /*margin-bottom: 20px;*/
+    transition: 0.7s ease;
 }
 
 
@@ -64,7 +75,7 @@ section {
     font-weight: 550;
 }
 
-.main h2 span {
+.main h2 #phd-domain {
     display: inline-block;
     /*margin-top: 10px;
     margin-bottom: 10px;*/
@@ -105,6 +116,13 @@ section {
     padding-right: 30px;
 }
 
+
+
+
+.core{
+    background: linear-gradient( 0.45turn,RGBA(255,200,80,0.3),RGBA(200,50,180,0.1),RGBA(150,50,180,0.05));
+}
+
 .title {
     display: flex;
     justify-content: center;
@@ -119,16 +137,62 @@ section {
 .dhn-info-div {
     width: 95%;
     display: inline-block;
+    justify-content: space-between;
+    align-items: center;
 }
 .dhn-info-div p {
-    padding: 20px 20px 20px 40px;
-    width: 80%;
+    margin-left: 100px;
+    padding: 25px 20px 20px 40px;
+    width: 65%;
     float: left;
+    border-style: solid;
+    border-width: 6px 6px 10px 10px;
+    border-radius:4% 95% 6% 95%/95% 4% 92% 5%;
+    border-color: #812752;
+    font-family: Georgia, serif;
+    font-size: 1.1em;
 }
-.dhn-info-div img {
-    float: left;
+
+.dhn-info-div #me-image {
     width: 20%;
+    margin-top: 5px;
+    margin-right: 70px;
+    box-shadow: 0 30px 40px RGBA(180,120,0,0.5);
+    float: right;
 }
+
+
+.dhn-info-div a {
+    font-family: Georgia, serif;
+    font-size: 1.1em;
+    transition: 0.7s ease;
+}
+
+
+
+.dhn-info-div a:hover {
+    font-family: Georgia, serif;
+    font-size: 1.1em;
+    color: blue;
+    transition: 0.7s ease;
+}
+
+
+
+#publications-list{
+    width: 55%;
+    margin: auto ;
+    padding:  20px 0px 10px 65px;
+    border: 8px solid;
+    border-image: linear-gradient(45deg,  #812752, #FCAA22 ,#812755) 1;
+}
+
+#publications-list a:hover{
+    color: blue;
+    transition: 0.7s ease;
+}
+
+
 
 .content {
     display: flex;
