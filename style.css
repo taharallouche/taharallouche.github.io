@@ -178,7 +178,8 @@ section {
 
 
 #publications-list{
-    width: 55%;
+    text-align: center;
+    width: 80%;
     margin: auto ;
     padding:  20px 0px 10px 65px;
     border: 8px solid;
